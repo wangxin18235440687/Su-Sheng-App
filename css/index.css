@@ -1,0 +1,499 @@
+
+@import url('base.css');
+
+header{
+		width: 100%;
+		height: 0.9rem;
+		/* background: red; */
+		
+		
+		position: fixed;
+		top: 0.2rem;
+		left: 0;
+}
+.headerRight{
+		width: 0.81rem;
+		height:0.90rem;
+		/* background: yellow; */
+		margin-right: 0.31rem;
+		text-align: center;
+		line-height: 0.7rem;
+		color: #9c9a9c;
+		opacity: 0.8;
+}
+.headerRight img{
+		width: 100%;
+		height:100%;
+		display: block;
+}
+.inputbox{
+		width: 100%;
+		height: 0.9rem;
+		/* background: orange; */
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+}
+.headerinput{
+		width: 8.76rem;
+		height: 0.9rem;
+		border-radius: 0.10rem;
+		border: 0;
+		background: #eeebec;
+		opacity: 0.8;
+		margin-left: 0.48rem;
+		padding-left: 1rem;
+		outline:medium;
+
+}
+.sousuoan{	
+		width: 0.96rem;
+		height: 0.90rem;
+		/* background: yellow; */
+		position: absolute;
+		left: 0.48rem;
+		text-align: center;
+		line-height: 0.7rem;
+		color: #9c9a9c;
+		opacity: 0.8;
+
+}
+.saoyisao{	
+		width: 0.96rem;
+		height: 0.90rem;
+		/* background: yellow; */
+		position: absolute;
+		right: 1.5rem;
+		text-align: center;
+		line-height: 0.7rem;
+		color: #9c9a9c;
+		opacity: 0.8;
+
+}
+
+
+
+
+/* banner */
+.banner{
+		width: 100%;
+		height: 4.9rem;
+		/* background: pink; */
+		margin: 0 auto;
+}
+.banner img{
+		width: 100%;
+		height:100%;
+		display: block;
+}
+/* /* 列表  */
+.navList{
+		width: 100%;
+		height: 5.2rem;
+		/* background: red; */
+		margin-top: 0.2rem;
+}
+.list{	
+		display: flex;
+		width: 100%;
+		height: 5.2rem;
+		/* background: yellow; */
+		flex-wrap: wrap; 
+		align-content: space-between;
+}
+.list li{
+		display: flex;
+		width: 1.66rem;
+		height: 2.11rem;
+		/* background: red; */
+		flex-wrap: wrap;
+		
+}
+.navimg{
+		flex-basis: 100%;
+		display: flex;
+		width: 1.66rem;
+		height: 1.5rem;
+		/* background: pink; */
+}
+.navimg img{
+		
+		width: 100%;
+		height: 100%;
+		display: block;
+}
+.navtext{
+		flex-basis: 100%;
+		font-size: 0.1rem;
+		height: 0.35rem;
+		/* background: pink; */
+		line-height: 0.35rem;
+		text-align: center;
+		color: #666666;
+}
+.colum{
+		display: flex;
+		flex-basis: 100%;
+		height: auto;
+		/* background: red; */
+		justify-content: space-around;
+}
+/* -----------------------------------------直播特卖------------------------------------------------------- */
+.zhibotemai{
+		display: flex;
+		width: 100%;
+		height: 1.71rem;
+		/* background: yellow; */
+		margin-top: 0.2rem;
+}
+.temai1{
+		width: 4.86rem;
+		height: 1.71rem;
+		/* background: red; */
+		margin-left: 0.36rem;
+}
+img{
+		display: block;
+		width: 100%;
+		height: 100%;
+}
+
+
+/* 潮流时尚-------------------------------------------------------------------------- */
+.chaoliushishang{
+		width: 100%;
+		height: 10.24rem;
+		/* background: red; */
+}
+.chaoliutitle{
+		width: 100%;
+		height: 1.20rem;
+		/* background: yellow; */
+		font-size: 0.38rem;
+		color: #737173;
+		line-height: 1.20rem;
+		padding-left:  0.36rem;
+
+}
+.chaoliuimg1{
+		display: block;
+		width: 10.08rem;
+		height: 3.15rem;
+		/* background: blue; */
+		margin: 0 auto;
+}
+.chaoliulist{
+		display: flex;
+		width: 100%;
+		height: 5.63rem;
+		/* background: red; */
+		padding: 0.36rem;
+		box-sizing: border-box;
+		justify-content: space-between;
+}
+.chaoliulist li {
+		display: flex;
+		width: 2.15rem;
+		height: 4.97rem;
+		/* background: yellow; */
+		flex-wrap: wrap;
+}
+.chaoliulistimg{
+		flex-basis: 100%;
+		height: 4.30rem;
+		/* background: blue; */
+}
+.chaoliulisttext{
+		flex-basis: 100%;
+		height: 0.34rem;
+		/* background: blue; */
+		font-size: 0.33rem;
+		color: #313031;
+		text-align: center;
+		line-height: 0.34rem;
+}
+/* 一分拼团-------------------------------------------------------------- */
+.yifenpingtuan{
+
+		width: 100%;
+		height: 5.58rem;
+		/* background: red; */
+		padding: 0.36rem;
+		box-sizing: border-box;
+		
+		
+}
+.pingtuantitle{
+		display: flex;
+		width: 100%;
+		height: 0.52rem;
+		/* background: yellow; */
+		justify-content: space-between;
+}
+.lefttitle{
+		
+		height: 0.52rem;
+		/* background: blue; */
+		font-size: 0.38rem;
+		color: #636563	;
+		line-height: 0.52rem;
+		
+}
+.righttitle{
+		
+		height: 0.52rem;
+		/* background: green; */
+		font-size: 0.38rem;
+		color: #636563	;
+		line-height: 0.52rem;
+		
+}
+
+
+
+
+.pingtuanlist{
+		display: flex;
+		width: 100%;
+		height: 3.73rem;
+		/* background: pink; */
+		justify-content: space-between;
+		margin-top: 0.33rem;
+}
+.pingtuanlist li {
+		display: flex;
+		width: 2.17rem;
+		height: 3.73rem;
+		/* background: yellow; */
+		flex-wrap: wrap;
+		align-content: space-between;
+		
+}
+.pingtuanlistimg{
+		flex-basis: 100%;
+		height: 2.57rem;
+		/* background: blue; */
+}
+.pingtuanlisttext{
+		flex-basis: 100%;
+		height: 0.38rem;
+		/* background: blue; */
+		font-size: 0.37rem;
+		color: #ff5573;
+		text-align: center;
+		line-height: 0.38rem;
+}
+.pingtuanlisttext2{
+		flex-basis: 100%;
+		height: 0.33rem;
+		/* background: blue; */
+		font-size: 0.32rem;
+		color: #9c9a9c;
+		text-align: center;
+		line-height: 0.33rem;
+}
+/* 今日必买-------------------------------------- */
+.jinribimai{
+		width: 100%;
+		height: 9.4rem;
+		/* background: red; */
+		padding: 0.36rem;
+		box-sizing: border-box;
+}
+.jrbmtitle{
+		width: 100%;
+		height: 0.52rem;
+		/* background: blue; */
+		font-size: 0.38rem;
+		color: #636563	;
+		line-height: 0.52rem;
+	
+
+}
+.jrbmlist{
+		width: 100%;
+		height: 7.04rem;
+		/* background: yellow; */
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-between;
+		justify-content: space-between;
+		margin-top: 0.37rem;
+}
+.jrbmlist li{
+		width: 4.95rem;
+		height: 3.43rem;
+		/* background: blue; */
+}
+/* 品质推荐 */
+.pingzhituijian{
+		width: 100%;
+		height: 8.33rem;
+		/* background: red; */
+		padding: 0.36rem;
+}
+.pztjtitle{
+		width: 100%;
+		height: 0.52rem;
+		/* background: blue; */
+		font-size: 0.38rem;
+		color: #636563	;
+		line-height: 0.52rem;
+	
+
+}
+.pztjlist{
+		width: 100%;
+		height: 7.13rem;
+		/* background: yellow; */
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-between;
+		justify-content: space-between;
+		margin-top: 0.37rem;
+}
+.pztjlist li{
+		width: 4.95rem;
+		height: 3.65rem;
+		/* background: blue; */
+}
+.pztjlist li:first-child{
+		width: 100%;
+		height: 3.3rem;
+}
+/* 流行元素 */
+.liuxingyuanshu{
+
+		width: 100%;
+		height: 8.4rem;
+		/* background: red; */
+		padding: 0.36rem;
+		box-sizing: border-box;
+		margin-bottom: 1.5rem;
+		
+		
+}
+.lxystitle{
+		display: flex;
+		width: 100%;
+		height: 0.52rem;
+		/* background: yellow; */
+		justify-content: space-between;
+}
+.lefttitle{
+		
+		height: 0.52rem;
+		/* background: blue; */
+		font-size: 0.38rem;
+		color: #636563	;
+		line-height: 0.52rem;
+		
+}
+.righttitle{
+		
+		height: 0.52rem;
+		/* background: green; */
+		font-size: 0.38rem;
+		color: #636563	;
+		line-height: 0.52rem;
+		
+}
+
+
+
+.lxyslist{
+		display: flex;
+		width: 100%;
+		height: 6.66rem;
+		/* background: pink; */
+		justify-content: space-between;
+		margin-top: 0.33rem;
+		flex-wrap: wrap;
+}
+.lxyslist li {
+		display: flex;
+		width: 2.40rem;
+		height: 3.03rem;
+		/* background: yellow; */
+		flex-wrap: wrap;
+		align-content: space-between;
+		
+}
+.lxyslistimg{
+		flex-basis: 100%;
+		height: 2.30rem;
+		/* background: blue; */
+}
+.lxyslisttext{
+		flex-basis: 100%;
+		height: 0.4rem;
+		/* background: blue; */
+		font-size: 0.36rem;
+		color: #313031;
+		text-align: center;
+		line-height: 0.4rem;
+}
+/* 底部开始 */
+footer{
+		width: 100%;
+		height: 1.47rem;
+		background: white;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+
+}
+.foot{
+		width: 100%;
+		height: 100%;
+		/* background: yellow; */
+		display: flex;
+		justify-content: space-around;
+}
+.foot li a{
+		width: 1.09rem;
+		height: 100%;
+		/* background: red; */
+		display: flex;
+		align-content: space-around;
+		flex-wrap: wrap;
+}
+.footicf{
+		flex-basis: 100%;
+		
+		height: 0.85rem;
+		/* background: blue; */
+		font-size: 0.64rem;
+		text-align: center;
+		line-height: 0.9rem;
+		color: #636563;
+
+}
+.foottext{
+		flex-basis: 100%;
+		height: 0.46rem;
+		/* background: blue; */
+		font-size: 0.31rem;
+		text-align: center;
+		color: #9c9e9c;
+}
+.iconfont2 {
+  font-family:"iconfont" !important;
+  font-size:0.64rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont3 {
+  font-family:"iconfont" !important;
+  font-size:0.57rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.foot li:first-child .footicf{
+		color: pink;
+}
+.foot li:first-child .foottext{
+		color: pink;
+}

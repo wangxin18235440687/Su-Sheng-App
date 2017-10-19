@@ -1,0 +1,289 @@
+
+@import url('base.css');
+
+/*头部*/
+header{
+		width: 100%;
+		height: 1.72rem;
+		border-bottom: 0.35rem solid #efefef;
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: flex;
+		padding: 0 0.36rem;
+		justify-content: space-between;
+		
+}
+.headertitle{
+		width: 6.6rem;
+		height: 100%;
+		text-align: right;
+		color: #333;
+		font-size: 0.54rem;
+		line-height: 1.36rem;
+}
+.topright1{
+		width: 2.72rem;
+		height: 100%;
+		text-align: right;
+		color: #666;
+		font-size: 0.42rem;
+		line-height: 1.36rem;
+}
+	
+.topright2{
+		width: 0.8rem;
+		height: 100%;
+		text-align: center;
+		color: #999;
+		font-size: 0.42rem;
+		line-height: 1.36rem;
+}
+main{
+		width: 100%;
+		height: 1.4rem;
+		border-bottom: 0.02rem solid #efefef;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 0.36rem;
+		margin-top: 1.72rem;
+		align-items: center;
+		
+	
+}
+.yuan{
+		width: 0.66rem;
+		height: 0.66rem;
+		border-radius: 50%;
+		border: 0.02rem solid #efefef;
+}
+.toptext{
+		width: 7.6rem;
+		height: 100%;
+		color: #333;
+		font-size: 0.4rem;
+		text-align: 1.4rem;
+		line-height:1.4rem;
+}
+.right{
+		width: 1.38rem;
+		height: 100%;
+		color: #ff5777;
+		font-size: 0.34rem;
+		text-align: center;
+		line-height:1.4rem; 
+}
+.bigbox{
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0.36rem;
+		border-bottom: 0.02rem solid #efefef;
+}
+.sprightbox{
+		width: 9.3rem;
+		height: 3.84rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+}
+.spimg{
+		width: 2.2rem;
+		height: 2.92rem;
+		
+}
+.sptext{
+		width: 6.6rem;
+		height: 3.1rem;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-between;
+}
+.sptext1{
+		width: 100%;
+		height: 2.3rem;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-between;
+}
+.p1{
+	font-size: 0.38rem;
+	color: #424242;
+	
+}
+.p2{
+	font-size: 0.34rem;
+	color: #999;
+}
+.sptext2{
+		width: 100%;
+		height: 0.54rem;
+		display: flex;
+		
+		justify-content: space-between;
+}
+.sptext21{
+		width: 3.22rem;
+		height: 100%;
+		display: flex;
+		
+		justify-content: space-between;
+}
+.p3{
+		font-size: 0.4rem;
+		color: #424242;
+}
+.p4{
+		font-size: 0.3rem;
+		color: #999;
+		text-decoration: line-through;
+}
+.p5{
+		font-size: 0.3rem;
+		color: #999;
+}
+/*---------------------------------*/
+.choudanbox{
+		width: 100%;
+		height: 1.12rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 0.36rem 0 1rem;
+		border-bottom: 0.02rem solid #efefef;
+	
+}
+.manjianbox{
+		width: 1.4rem;
+		height: 0.5rem;
+		background: #ff5777;
+		text-align: center;
+		line-height: 0.5rem;
+		font-size: 0.32rem;
+		color: white;
+		 
+		border-radius: 0.1rem;
+}
+.manjiantext{
+		width: 6.06rem;
+		height: 100%;
+		line-height: 1.12rem;
+		font-size: 0.34rem;
+		color: #999;
+		padding-left:0.36rem;
+}
+.quchoudan{
+		width: 1.68rem;
+		height: 100%;
+		line-height: 1.12rem;
+		font-size: 0.34rem;
+		color:#ff5777;
+}
+
+.jiesuanbox{
+		width: 100%;
+		height: 1.52rem;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 0.36rem;
+		position: fixed;
+		left: 0;
+		bottom: 1.47rem;
+		align-items: center;
+}
+.quanxuanbox{
+		width: 5rem;
+		height: 100%;
+		line-height: 1.52rem;
+		font-size: 0.38rem;
+		color: #999;
+}
+.hejitext{
+		width: 1.42rem;
+		height: 100%;
+		font-size: 0.36rem;
+		color: #ff5777;
+		line-height: 1.52rem;
+}
+.jieshuan{
+		width: 2.11rem;
+		height: 0.91rem;
+		background: #ff5777;
+		color: white;
+		font-size: 0.42rem;
+		text-align: center;
+		line-height: 0.91rem;
+		border-radius: 0.06rem;
+}
+
+
+
+
+
+
+/* 底部开始 */
+footer{
+		width: 100%;
+		height: 1.47rem;
+		background: white;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+
+}
+.foot{
+		width: 100%;
+		height: 100%;
+		/* background: yellow; */
+		display: flex;
+		justify-content: space-around;
+}
+.foot li a{
+		width: 1.09rem;
+		height: 100%;
+		/* background: red; */
+		display: flex;
+		align-content: space-around;
+		flex-wrap: wrap;
+}
+.footicf{
+		flex-basis: 100%;
+		
+		height: 0.85rem;
+		/* background: blue; */
+		font-size: 0.64rem;
+		text-align: center;
+		line-height: 0.9rem;
+		color: #636563;
+
+}
+.foottext{
+		flex-basis: 100%;
+		height: 0.46rem;
+		/* background: blue; */
+		font-size: 0.31rem;
+		text-align: center;
+		color: #9c9e9c;
+}
+.iconfont2 {
+  font-family:"iconfont" !important;
+  font-size:0.64rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont3 {
+  font-family:"iconfont" !important;
+  font-size:0.57rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.foot li:nth-child(4) .footicf{
+		color: pink;
+}
+.foot li:nth-child(4) .foottext{
+		color: pink;
+}

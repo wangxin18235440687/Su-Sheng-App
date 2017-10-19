@@ -1,0 +1,251 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-13 17:04:32
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-14 20:43:38
+*/
+@import url('base.css');
+
+@import url('../iconfont/iconfont.css');
+
+.iconfont2 {
+  font-family:"iconfont" !important;
+  font-size:0.64rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.quanbufenglei{
+
+		width: 100%;
+		height: 1.34rem;
+		background: #fffbff;
+		font-size: 0.5rem;
+		text-align: center;
+		line-height: 1.34rem;
+		color: #424142;
+		border-bottom: 1px solid #d6d3d6;
+		
+
+}
+.topleft{
+		position: absolute;
+		width: 1.37rem;
+		height: 1.34rem;
+		/* background: yellow; */
+		font-size: 0.69rem;
+		text-align: center;
+		line-height: 1.34rem;
+		float: left;
+		color: #9c9a9c;
+		
+}
+body{
+		background: #f7f7f7;
+}
+
+
+
+header.ssk{
+		width: 100%;
+		height: 0.9rem;
+		background: #f7f7f7;
+		margin-top: 0.24rem;
+		
+		
+}
+
+
+
+.inputbox{
+		width: 100%;
+		height: 100%;
+		/* background: orange; */
+		display: flex;
+		padding: 0 0.36rem;
+		justify-content: center;
+		position: relative;
+}
+.headerinput{
+		width: 100%;
+		height: 0.9rem;
+		border-radius: 0.10rem;
+		border: 0;
+		background: #ffffff;
+		opacity: 0.8;
+		
+		padding-left: 1rem;
+		outline:medium;
+
+}
+.sousuoan{	
+		width: 0.96rem;
+		height: 0.90rem;
+		/* background: yellow; */
+		position: absolute;
+		left: 0.36rem;
+		text-align: center;
+		line-height: 0.7rem;
+		color: #9c9a9c;
+		opacity: 0.8;
+
+}
+.saoyisao{	
+		width: 0.96rem;
+		height: 0.90rem;
+		/* background: yellow; */
+		position: absolute;
+		right: 0.36rem;
+		text-align: center;
+		line-height: 0.7rem;
+		color: #9c9a9c;
+		opacity: 0.8;
+
+}
+/* mian开始 */
+
+main{
+		width: 100%;
+		height: auto;
+		background: white;
+		margin-top: 0.36rem;
+		display: flex;
+		margin-bottom:  1.47rem;
+		
+
+}
+.leftbox{
+		width: 2.7rem;
+		height: auto;
+		/* background: yellow;
+ */
+}
+.leftbox ul{
+		width: 100%;
+		height: auto;
+		/* background: gray; */
+}
+.leftbox ul li{
+		width: 100%;
+		height: 1.42rem;
+		/* background: yellow; */
+		border-bottom: 0.02rem solid #e7e7e7 ;
+		text-align: center;
+		line-height: 1.42rem;
+		font-size: 0.4rem;
+		color: #313031;
+}
+.leftbox ul li:nth-child(2){
+		color:#ff5573; 
+}
+.rightbox{
+		width: 8.1rem;
+		height: auto;
+		/* background: red; */
+}
+.rightbox ul{
+		width: 100%;
+		height: auto;
+		/* background: gray; */
+		padding:  0.4rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+}
+.rightbox ul li a{
+		width: 1.9rem;
+		height: 2.84rem;
+		/* background: red; */
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-between;
+		margin-top: 0.5rem;
+}
+
+
+.rightimg{
+		width: 1.9rem;
+		height:2.12rem;
+		/* background: yellow; */
+}
+.righttextbox{
+		width: 1.9rem;
+		height: 0.42rem;
+		/* background: pink; */
+		text-align: center;
+		font-size: 0.38rem;
+		color: #636163;
+		line-height: 0.42rem;
+}
+
+
+
+
+
+/* 底部开始 */
+footer{
+		width: 100%;
+		height: 1.47rem;
+		background: white;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+
+}
+.foot{
+		width: 100%;
+		height: 100%;
+		/* background: yellow; */
+		display: flex;
+		justify-content: space-around;
+}
+.foot li a{
+		width: 1.09rem;
+		height: 100%;
+		/* background: red; */
+		display: flex;
+		align-content: space-around;
+		flex-wrap: wrap;
+}
+.footicf{
+		flex-basis: 100%;
+		
+		height: 0.85rem;
+		/* background: blue; */
+		font-size: 0.64rem;
+		text-align: center;
+		line-height: 0.9rem;
+		color: #636563;
+
+}
+.foottext{
+		flex-basis: 100%;
+		height: 0.46rem;
+		/* background: blue; */
+		font-size: 0.31rem;
+		text-align: center;
+		color: #9c9e9c;
+}
+.iconfont2 {
+  font-family:"iconfont" !important;
+  font-size:0.64rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont3 {
+  font-family:"iconfont" !important;
+  font-size:0.57rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.foot li:nth-child(2) .footicf{
+		color: pink;
+}
+.foot li:nth-child(2) .foottext{
+		color: pink;
+}

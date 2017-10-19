@@ -1,0 +1,232 @@
+﻿@import url('base.css');
+header{
+	width: 100%;
+	height: 0.88rem;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.24rem;
+	margin-bottom: 0.24rem;
+}
+header .hadleft{
+	width: 1.5rem;
+	height: 0.85rem;
+	/* background: blue; */
+	font-size: 0.64rem;
+	text-align: center;
+	line-height: 0.9rem;
+	color: #636563;
+}
+input{
+	height: 100%;
+	width: 8.12rem;
+	padding-left:0.2rem; 
+	border-radius: 0.16rem;
+	border: none;
+	background-color:#f7f7f7;
+}
+nav{
+	display: flex;
+	width: 100%;
+	line-height:1.16rem;
+	height: 1.16rem;
+	justify-content: space-around;
+	border-bottom:0.01rem solid #dedbde;
+}
+nav a{
+	text-align: center;
+	width: 2.72rem;
+}
+nav a:nth-child(1){
+	border-bottom: 0.04rem solid #ff5573;
+}
+h1{
+	font-size: 0.4rem;
+	color: #424142;
+}
+h2{
+	font-size: 0.4rem;
+	color:#5a7594;
+	line-height: 1.5rem;
+}
+.colorbox1{
+	width: 100%;
+	height: 1.5rem;
+	border-bottom:  0.01rem solid #dedbde;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.36rem;
+}
+.colorbox a {
+	font-size: 0.4rem;
+	color: #9c9a9c;
+	height: 100%;
+	line-height: 1.5rem;
+}
+main{
+	width: 100%;
+	height: auto;
+	background-color: #efefef;
+	margin-bottom: 1.47rem;
+}
+main ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding:0 0.08rem;	
+}
+main ul li {
+	width: 5rem;
+	height: 8.94rem;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 0.15rem;
+	margin-top: 0.36rem;
+	margin-left: 0.16rem;
+	margin-right: 0.16rem;
+}
+.imgbox{
+	width: 100%;
+	height: 6.68rem;
+}
+
+.textbox1{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	padding:0 0.26rem;
+	width: 100%;
+	height: 1.08rem;
+	overflow: hidden;
+}
+.textbox1 a{
+	margin-left: 0.15rem;
+	height: 0.5rem;
+	background-color: #eff3f7;
+	font-size: 0.3rem;
+	color: #5a6d84;
+}
+
+h3{
+	line-height:0.44rem;
+	font-size: 0.34rem;
+}
+.textbox2{
+	width:100%;
+	height: 0.44rem;
+	display:flex;
+	padding:0 0.26rem;
+	justify-content: space-between;
+	color:black;
+}
+
+.footicf6{
+	width: 1.34rem;
+	height: 100%;
+	line-height:0.44rem;
+	font-size: 0.28rem;
+	color:#636563;
+	 
+}
+.footicf6 .iconfont{
+	font-size: 0.28rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iconfont2 {
+  font-family:"iconfont" !important;
+  font-size:0.64rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont3 {
+  font-family:"iconfont" !important;
+  font-size:0.57rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+footer{
+		width: 100%;
+		height: 1.47rem;
+		background: white;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+}
+.foot{
+		width: 100%;
+		height: 100%;
+		/* background: yellow; */
+		display: flex;
+		justify-content: space-around;
+}
+.foot li a{
+		width: 1.09rem;
+		height: 100%;
+		/* background: red; */
+		display: flex;
+		align-content: space-around;
+		flex-wrap: wrap;
+}
+.footicf{
+		flex-basis: 100%;
+		
+		height: 0.85rem;
+		/* background: blue; */
+		font-size: 0.64rem;
+		text-align: center;
+		line-height: 0.9rem;
+		color: #636563;
+}
+.foottext{
+		flex-basis: 100%;
+		height: 0.46rem;
+		/* background: blue; */
+		font-size: 0.31rem;
+		text-align: center;
+		color: #9c9e9c;
+}
+.foot li:first-child .footicf{
+		color: pink;
+}
+.foot li:first-child .foottext{
+		color: pink;
+}
