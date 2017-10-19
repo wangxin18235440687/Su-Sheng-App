@@ -150,7 +150,7 @@ section{
 	width: 100%;
 	height: auto;
 	border-top: 0.3rem solid #efefef;
-	margin-bottom: 1.47rem;
+	margin-bottom: 1.7rem;
 	
 }
 section ul{
@@ -236,13 +236,15 @@ section ul li:nth-child(7){
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* 底部开始 */
 footer{
 		width: 100%;
-		height: 1.47rem;
+		height: 1.7rem;
 		background: white;
 		position: fixed;
 		left: 0;
-		bottom: 0;
+		bottom: 0rem;
+
 }
 .foot{
 		width: 100%;
@@ -256,7 +258,7 @@ footer{
 		height: 100%;
 		/* background: red; */
 		display: flex;
-		align-content: space-around;
+		align-content: center;
 		flex-wrap: wrap;
 }
 .footicf{
@@ -268,14 +270,30 @@ footer{
 		text-align: center;
 		line-height: 0.9rem;
 		color: #636563;
+		margin-bottom: 0.03rem;
+
 }
 .foottext{
 		flex-basis: 100%;
 		height: 0.46rem;
 		/* background: blue; */
-		font-size: 0.31rem;
+		font-size: 0.33rem;
 		text-align: center;
 		color: #9c9e9c;
+}
+.iconfont2 {
+  font-family:"iconfont" !important;
+  font-size:0.64rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont3 {
+  font-family:"iconfont" !important;
+  font-size:0.57rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .foot li:nth-child(5) .footicf{
 		color: pink;

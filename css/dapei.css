@@ -182,6 +182,7 @@ header a span{
 .jxdp{
 		width: 100%;
 		height: auto;
+		margin-bottom: 1.7rem;
 }
 .jxdphead{
 		width: 100%;
@@ -340,15 +341,14 @@ header a span{
 		font-size: 0.32rem;
 }
 
-/*底部*/
-
+/* 底部开始 */
 footer{
 		width: 100%;
-		height: 1.47rem;
+		height: 1.7rem;
 		background: white;
 		position: fixed;
 		left: 0;
-		bottom: 0;
+		bottom: 0rem;
 
 }
 .foot{
@@ -363,7 +363,7 @@ footer{
 		height: 100%;
 		/* background: red; */
 		display: flex;
-		align-content: space-around;
+		align-content: center;
 		flex-wrap: wrap;
 }
 .footicf{
@@ -375,13 +375,14 @@ footer{
 		text-align: center;
 		line-height: 0.9rem;
 		color: #636563;
+		margin-bottom: 0.03rem;
 
 }
 .foottext{
 		flex-basis: 100%;
 		height: 0.46rem;
 		/* background: blue; */
-		font-size: 0.31rem;
+		font-size: 0.33rem;
 		text-align: center;
 		color: #9c9e9c;
 }
@@ -405,10 +406,6 @@ footer{
 .foot li:nth-child(3) .foottext{
 		color: pink;
 }
-.jxdpleibiao:last-child{
-		margin-bottom: 1.47rem;
-}
-
 
 
 
